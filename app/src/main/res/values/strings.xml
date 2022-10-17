@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EVAL4</string>
+    <string name="summary_label">Summary :</string>
+    <string name="genres_label">Genres :</string>
+    <string name="pages_label">Pages :</string>
+    <string name="author_label">Author :</string>
+    <string name="select_genre_button">Select Type</string>
+    <string name="pages">Value</string>
+    <string name="author">Name</string>
+    <string name="title">Date</string>
+    <string name="summary">Summary</string>
+</resources>

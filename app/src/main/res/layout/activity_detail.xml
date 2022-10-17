@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/authorTextViewLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/author_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/authorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Joseph"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toEndOf="@id/authorTextViewLabel"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/pageTextViewLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pages_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/authorTextViewLabel"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/pageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="200"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toEndOf="@id/pageTextViewLabel"
+        app:layout_constraintTop_toBottomOf="@id/authorTextViewLabel"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/genreTextViewLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/genres_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pageTextViewLabel"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/genreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="summary text sample"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/genreTextViewLabel"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/summaryTextViewLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/summary_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/genreTextView"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/summaryTextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/summaryTextViewLabel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="summary text sample" />
+</androidx.constraintlayout.widget.ConstraintLayout>
